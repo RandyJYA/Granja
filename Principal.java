@@ -6,7 +6,7 @@ public class Principal
         Granjero paco = new Granjero(" Avelardo ",
                             " De la Hoya", 42 , 'H');
      
-        Granja granjaDePaco = new Granja ("PacoLandia", "Corea del Norte",paco );
+        Granja granjaDePaco = new Granja ("PacoLandia", "Corea del Norte", paco );
         
         
         Mascota mascota = new Mascota("Rex", 13, "Perro");
