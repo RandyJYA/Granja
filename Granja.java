@@ -1,7 +1,7 @@
 
 public class Granja
 {
-   private Granja granjero;
+   private Granjero granjero;
    private String nombre;
    private String ubicacion;
    
@@ -9,7 +9,7 @@ public class Granja
        this.granjero = granjero;
     }
     
-    public Granja(String nombre, String ubicacion, Granja granjero){
+    public Granja(String nombre, String ubicacion, Granjero granjero){
         this.nombre = nombre;
         this.ubicacion = ubicacion;
         this.granjero = granjero;
