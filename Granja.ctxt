@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Granja
+comment1.params=propietario
+comment1.target=Granja(Granjero)
+comment2.params=nombre\ ubicacion\ granjero
+comment2.target=Granja(java.lang.String,\ java.lang.String,\ Granja)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4
