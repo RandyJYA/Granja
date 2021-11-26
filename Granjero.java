@@ -8,6 +8,7 @@ public class Granjero
     private char sexo;
     private Mascota mascota;
     
+    
     public Granjero (String nombre, String apellidos, int edad, char sexo){
     this.nombre = nombre;
     this.apellidos = apellidos;
@@ -46,7 +47,7 @@ public class Granjero
     
     public void setMascota(Mascota mascota){
         this.mascota = mascota;
-    }
+    }//hola
     //Comentario
     public String toString(){
     StringBuilder resultado = new StringBuilder();
@@ -56,7 +57,7 @@ public class Granjero
     resultado.append(apellidos);
     resultado.append( "\nEdad : " );
     resultado.append(edad);
-   resultado.append( "\n Sexo : " );
+    resultado.append( "\n Sexo : " );
     resultado.append(sexo);
     resultado.append("Datos de mascota: ");
     resultado.append(mascota.toString());
