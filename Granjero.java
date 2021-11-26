@@ -47,7 +47,7 @@ public class Granjero
     public void setMascota(Mascota mascota){
         this.mascota = mascota;
     }
-    
+    //Comentario
     public String toString(){
     StringBuilder resultado = new StringBuilder();
     resultado.append( "\nNombre " );
